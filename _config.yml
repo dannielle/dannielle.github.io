@@ -3,8 +3,8 @@ markdown: redcarpet
 highlighter: pygments
 url: http://dirosa.me
 paginate: 8
-description: game dev, optimism, feminism & atlanta
-intro: game dev, optimism, feminism & atlanta
+description: game dev, optimism, intersectionalism & atlanta
+intro: game dev, optimism, intersectionalism & atlanta
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com

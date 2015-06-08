@@ -1,6 +1,8 @@
 ---
 layout: default
-title: About Vinit Kumar
+title: About Dee Dirosa
 ---
 
-Your introduction here
+Dee Dirosa is Atlanta-based enthusiasm enthusiast and hobbyist game developer.
+
+22, games/game dev/soft critique, play, wine, tech & dev shit, ios dev, four leaf clovers, illustration, asian-american & personal conversations
