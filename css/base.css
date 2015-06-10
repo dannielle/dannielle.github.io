@@ -39,6 +39,7 @@ body {
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
   border-top: 4px solid #556270;
   border-bottom: 4px solid #556270;
+  background-color: #705266;
 }
 
 strong {
@@ -65,15 +66,19 @@ hr:before {
   content: '\2022 \2022 \2022 \2022 \2022';
 }
 
+.content {
+  background-color: #f9f7f4;
+}
+
 .container {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 800px;
   padding: 0 20px;
 }
 
 .header-container {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 800px;
   padding: 0 20px;
 }
 
