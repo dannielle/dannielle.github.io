@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="content">
+    {% include header.html %}
+
+    <hr>
+
+    <div class="intro">
+      <p>
+        {{ site.intro }}
+      </p>
+      <nav>
+        <ul>
+          <li>archive</li>
+          <li><a href="/about.html">about</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+    {{ content }}
+
+    {% include footer.html %}
+    </div><!-- /.main -->
+  </div>
+</body>
+</html>
