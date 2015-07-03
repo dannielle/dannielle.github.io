@@ -7,17 +7,27 @@ title: dee dirosa * indie game dev & stuff
     {% for post in paginator.posts %}
 
       {% if post.asdf == 'story' %}
-        <h1 class="narrative-heading">Narrative</h1>
-      {% endif %}
-      {% if post.asdf == 'challenge' %}
-        <h1 class="challenge-heading">Design Challenge</h1>
+      <div class="post-group">
+        <span class="post-date">{{ post.date | date_to_string }}</span>
       {% endif %}
 
-      <div class="post other link">
-        <h2><span class=""></span><a href="{{post.url}}">{{ post.title }}</a></h2>
-        <p class="post-date">{{ post.date | date_to_string }}</p>
+      <div class="post">
+        <a href="{{post.url}}">
+          {% if post.asdf == 'story' %}
+            <h1 class="narrative-heading">Narrative</h1>
+          {% endif %}
+          {% if post.asdf == 'challenge' %}
+            <h1 class="challenge-heading">Design Challenge</h1>
+          {% endif %}
 
-        <p>{{ post.excerpt }}</p>
+            <h2 class="post-title">{{ post.title }}</h2>
+
+            <!-- <p>{{ post.excerpt }}</p> -->
+        </a>
       </div>
+
+      {% if post.asdf == 'challenge' %}
+      </div>
+      {% endif %}
     {% endfor %}
 </div>

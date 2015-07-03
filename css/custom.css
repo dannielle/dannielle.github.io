@@ -73,11 +73,28 @@ nav li>a, nav li>a.visited {
   margin: auto;
 }
 
+.listing {
+  padding: 0 50px;
+}
+
+.post-date {
+  color:#919191;
+  font-size:1.5em;
+}
+
+.post-group {
+
+}
+
+.post {
+  margin: 2em 0em;
+}
+
 .narrative-heading, .challenge-heading {
   text-transform: uppercase;
   font-style: italic;
   font-family: "Ropa Sans", "Arial", sans-serif;
-  margin-bottom:0.6em;
+  display:inline;
 }
 
 .narrative-heading {
@@ -92,13 +109,9 @@ nav li>a, nav li>a.visited {
   color: #5d5d5d;
 }
 
-.listing .post {
-  width: 40%;
-  display: inline;
-}
-
-.listing>.post>h2 {
-  margin-top:0.6em;
+.post-title {
+  display:inline;
+  margin-left: 20px;
 }
 
 footer {

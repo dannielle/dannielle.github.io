@@ -1,7 +1,7 @@
 ---
 title: "When The Big Picture Was Not The Vision"
 layout: "post"
-permalink: "/2015/06/08/when-the-big-picture-was-not-the-vision.html"
+permalink: "/2015/06/22/when-the-big-picture-was-not-the-vision.html"
 description: "and the sketchbook should be blind"
 categories: [games, indie games, dev, optimism, lifestyle]
 asdf: "story"
