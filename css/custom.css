@@ -90,6 +90,10 @@ nav li>a, nav li>a.visited {
   margin: 2em 0em;
 }
 
+.show-excerpt:hover {
+  cursor: pointer;
+}
+
 .narrative-heading, .challenge-heading {
   text-transform: uppercase;
   font-style: italic;
