@@ -42,11 +42,7 @@ hr {
   color:#919191;
   font-family: "Ropa Sans", "Arial", sans-serif;
   font-size:1.30em;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  transition: all .3s linear;
 }
 
 .intro>p:hover {
@@ -90,11 +86,16 @@ nav li>a, nav li>a.visited {
   margin: 2em 0em;
 }
 
-.show-excerpt:hover {
-  cursor: pointer;
+.show-excerpt {
+  transition: all .3s linear;
 }
 
-.narrative-heading, .challenge-heading {
+.show-excerpt:hover {
+  cursor: pointer;
+  transform: translateX(25px);
+}
+
+.narrative-heading, .challenge-heading, .read-more-link {
   text-transform: uppercase;
   font-style: italic;
   font-family: "Ropa Sans", "Arial", sans-serif;
@@ -120,6 +121,18 @@ nav li>a, nav li>a.visited {
 
 .post-excerpt {
   display: none;
+}
+
+.read-more-link {
+  display:block;
+  text-align: right;
+  border-bottom: #919191 1px dotted;
+  color: #919191;
+  transition: all .3s linear;
+}
+
+.read-more-link:hover {
+  color: #5d5d5d;
 }
 
 footer {

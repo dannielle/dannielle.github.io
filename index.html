@@ -12,7 +12,6 @@ title: dee dirosa * indie game dev & stuff
       {% endif %}
 
       <div class="post">
-        <!-- <a href="{{post.url}}" class="show-excerpt"> -->
         <div class="show-excerpt">
           {% if post.asdf == 'story' %}
             <h1 class="narrative-heading">Narrative</h1>
@@ -21,11 +20,12 @@ title: dee dirosa * indie game dev & stuff
             <h1 class="challenge-heading">Design Challenge</h1>
           {% endif %}
 
-            <h2 class="post-title">{{ post.title }}</h2>
+          <h2 class="post-title">{{ post.title }}</h2>
         </div>
-        <div class="post-excerpt">{{ post.excerpt }}</p>
-        <!-- </a> -->
-      </div>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <a href="{{post.url}}" class="read-more-link">Read More</a>
+        </div>
 
       {% if post.asdf == 'challenge' %}
       </div>
