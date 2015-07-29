@@ -1,4 +1,4 @@
-name: Dee Dirosa ⌘ 
+name: Dee dirosa ⌘ 
 markdown: redcarpet
 highlighter: pygments
 # url: http://dirosa.me
@@ -13,18 +13,18 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
+  name:           Dee dirosa
   avatar:         <avatar-image-link>
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter: dirosaur
   github:
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-65750490-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
