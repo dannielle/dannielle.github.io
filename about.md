@@ -3,8 +3,11 @@ layout: default
 title: About Dee dirosa
 ---
 
-Dee dirosa is Atlanta-based enthusiasm enthusiast and hobbyist game developer.
+I'm Dee dirosa: an Atlanta-based enthusiasm enthusiast, software developer, and hobbyist game developer.
 
-Dee's real name is Dannielle. Dee dirosa is just a pen name. It's fine.
+My real name is Dannielle. Dee dirosa is just a pen name. It's fine.
 
-22, games/game dev/soft critique, play, wine, tech & dev shit, ios dev, four leaf clovers, illustration, asian-american & personal conversations
+I'm an optimistic nerd to a fault:
+  1. someone once described my point of view on life as "enchanted reality not augmented reality"
+  2. I learned a lot of hard life lessons about discrimination when I was 10 years old playing as a halfling in Neverwinter Nights
+  3. I believe that the power of friendship will always save the day.
