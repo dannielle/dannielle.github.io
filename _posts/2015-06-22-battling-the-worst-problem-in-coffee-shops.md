@@ -1,7 +1,7 @@
 ---
-title: "Lorem Ipsum"
+title: "Battling The Worst Problem Ever in Coffee Shops"
 layout: "post"
-permalink: "/2015/06/22/lorem-ipsum.html"
+permalink: "/2015/06/22/battling-the-worst-problem-in-coffee-shops.html"
 description: "and the sketchbook should be blind"
 categories: [games, indie games, dev, optimism, lifestyle]
 asdf: "challenge"

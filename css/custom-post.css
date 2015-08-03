@@ -1,0 +1,18 @@
+.post p, .post li {
+  color: #919191;
+}
+
+.post blockquote {
+  font-size: 1.25em;
+  display: block;
+  width: 500px;
+  margin: 2em auto;
+  padding: 0 1.25em;
+  border-left: #919191 1px dotted;
+  font-family: "Georgia", serif;
+  line-height: 1.35em;
+}
+
+.post blockquote p {
+  color: #5d5d5d;
+}
