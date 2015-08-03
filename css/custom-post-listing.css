@@ -20,7 +20,7 @@
 
 .show-excerpt:hover {
   cursor: pointer;
-  transform: translateX(15px);
+  transform: translateX(10px);
 }
 
 .narrative-heading, .challenge-heading, .read-more-link {
@@ -61,7 +61,8 @@
 
 .read-more-link:hover {
   color: #5d5d5d;
-
+  transform: translateX(3px);
+}
 
 
 @media (max-width: 800px){
