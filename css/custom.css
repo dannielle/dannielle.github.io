@@ -95,7 +95,6 @@ nav li>a, nav li>a.visited {
 
 @media (max-width: 800px){
   .content{
-    width:100%;
     padding-top:0;
   }
   header {
@@ -103,6 +102,7 @@ nav li>a, nav li>a.visited {
     position: fixed;
     padding:0.5em 0;
     top:0;
+    left:0;
   }
   header>h1, header>sub {
     display:inline;
