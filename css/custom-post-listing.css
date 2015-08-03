@@ -1,0 +1,68 @@
+.listing {
+}
+
+.post-date {
+  color:#919191;
+  font-size:1.5em;
+}
+
+.post-group {
+
+}
+
+.post {
+  margin: 2em 0em;
+}
+
+.show-excerpt {
+  transition: all .3s linear;
+}
+
+.show-excerpt:hover {
+  cursor: pointer;
+  transform: translateX(15px);
+}
+
+.narrative-heading, .challenge-heading, .read-more-link {
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Ropa Sans", "Arial", sans-serif;
+  display:inline;
+}
+
+.narrative-heading {
+  color:#11c3f0;
+}
+
+.challenge-heading {
+  color:#ec9110;
+}
+
+.listing, .listing a, .listing a:visited {
+  color: #5d5d5d;
+}
+
+.post-title {
+  display:inline;
+  margin-left: 20px;
+}
+
+.post-excerpt {
+  display: none;
+}
+
+.read-more-link {
+  display:block;
+  text-align: right;
+  border-bottom: #919191 1px dotted;
+  color: #919191;
+  transition: all .3s linear;
+}
+
+.read-more-link:hover {
+  color: #5d5d5d;
+
+
+
+@media (max-width: 800px){
+}
