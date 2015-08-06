@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: custom
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<h1>{{ page.title }}</h1>
 
 <div class="post">
-{{ content }}
+  <time class="meta">{{ page.date | date_to_string }}</time>
+  {{ content }}
 </div>
 
 <div class="keep-in-touch">

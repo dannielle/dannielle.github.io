@@ -1,10 +1,10 @@
-name: White Paper
+name: Dee dirosa ⌘ 
 markdown: redcarpet
-pygments: true
-url: http://vinitkumar.me/white-paper
+highlighter: pygments
+# url: http://dirosa.me
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+description: game dev, optimism, intersectionality & atlanta
+intro: I write passionately about games & play, optimism, intersectionality, Atlanta, and the personal conversations that occur in my life. Then, I accompany each post with an experience design challenge to help me think about my problems and life in a different way.
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
@@ -13,18 +13,18 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
+  name:           Dee dirosa
   avatar:         <avatar-image-link>
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter: dirosaur
   github:
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-65750490-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

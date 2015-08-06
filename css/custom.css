@@ -1,0 +1,128 @@
+body {
+  background-color: #f8f1e7;
+  font-family: "Lato", Arial, sans-serif;
+  color:#5d5d5d;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.content {
+  padding: 4em 100px;
+  margin: auto;
+}
+
+header {
+  background-color: #e3473b;
+  width: 500px;
+  margin: auto;
+  padding:3em 0;
+  border: #f2f2f2 4px double;
+  border-radius: 2px;
+  box-shadow: 0 0 0 4px #e3473b;
+  box-sizing: border-box;
+
+  font-family: "Ropa Sans", "Arial", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3473b;
+}
+
+header>h1 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size:3em;
+}
+
+header>h1>a, header>sub{
+  color: white;
+}
+
+header>sub {
+  font-size: 1.5em;
+}
+
+hr {
+  margin:2em;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(227,71,59,.3), rgba(227,71,59,.75), rgba(227,71,59,0.3));
+}
+
+.intro {
+  color: #5d5d5d;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1em;
+  width:75%;
+  margin: 3em auto;
+}
+
+.intro>p {
+  color:#919191;
+  font-family: "Ropa Sans", "Arial", sans-serif;
+  font-size:1.30em;
+  transition: all .3s linear;
+}
+
+.intro>p:hover {
+  color:#5d5d5d;
+}
+
+nav {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-top:2em;
+
+  font-family:"Ropa Sans", "Arial", sans-serif;
+  font-size:1.8em;
+  font-weight:bold;
+}
+
+nav>ul {
+  padding-left: 0px;
+}
+
+nav li {
+  display:inline;
+  margin:0 1em;
+}
+
+nav li>a, nav li>a.visited {
+  color: #5d5d5d;
+  border-bottom:2px solid;
+  transition: all .2s linear;
+}
+
+nav li>a:hover, nav li>a.visited:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 800px){
+  .content{
+    padding-top:0;
+  }
+  header {
+    width:100%;
+    position: fixed;
+    padding:0.5em 0;
+    top:0;
+    left:0;
+  }
+  header>h1, header>sub {
+    display:inline;
+  }
+  header>sub { margin-left: 1em; vertical-align: baseline;}
+  hr {
+    visibility:hidden;
+  }
+  .intro {
+    margin:0 auto;
+    margin-top: 8em;
+    padding:0em 1em;
+  }
+  .intro>p{
+    margin:0;
+  }
+}

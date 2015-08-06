@@ -1,15 +1,34 @@
 ---
-layout: default
-title: A guide to your digital life
+layout: custom
+title: dee dirosa * indie game dev & stuff
 ---
 
 <div class="listing">
     {% for post in paginator.posts %}
-    <div class="post other link">
-      <h2><span class="mega-octicon octicon-flame" style="min-width: 32px;"></span><a href="/white-paper{{post.url}}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date_to_string }}</p>
 
-      <p>{{ post.excerpt }}</p>
-    </div>
+      {% if post.asdf == 'story' %}
+      <div class="post-group">
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      {% endif %}
+
+      <div class="post">
+        <div class="show-excerpt">
+          {% if post.asdf == 'story' %}
+            <h1 class="narrative-heading">Narrative</h1>
+          {% endif %}
+          {% if post.asdf == 'challenge' %}
+            <h1 class="challenge-heading">Design Challenge</h1>
+          {% endif %}
+
+          <h2 class="post-title">{{ post.title }}</h2>
+        </div>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <a href="{{post.url}}" class="read-more-link">Read More</a>
+        </div>
+
+      {% if post.asdf == 'challenge' %}
+      </div>
+      {% endif %}
     {% endfor %}
 </div>
