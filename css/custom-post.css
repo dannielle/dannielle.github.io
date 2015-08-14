@@ -1,11 +1,41 @@
+.post-header>h1 {
+  display:inline;
+  font-size:3em;
+  margin-right:1em;
+  text-transform:uppercase;
+}
+
+.post-header time {
+
+}
+
+.post-header {
+  border-bottom: 1px dotted #919191;
+  margin: 7em 0;
+}
+
+.post {
+  width: 80%;
+  margin: auto;
+}
+
+.post h1, .post h2, .post p, .post ul, .post ol {
+  margin: 1.5em auto;
+}
+
+.post h1, .post h2 {
+  margin-top:2em;
+}
+
 .post p, .post li {
   color: #919191;
+  line-height: 1.5em;
 }
 
 .post blockquote {
   font-size: 1.25em;
   display: block;
-  width: 500px;
+  width: 60%;
   margin: 2em auto;
   padding: 0 1.25em;
   border-left: #919191 1px dotted;
