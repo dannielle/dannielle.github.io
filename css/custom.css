@@ -90,18 +90,23 @@ nav>ul {
   padding-left: 0px;
 }
 
-nav li {
+nav>ul>li {
   list-style-type: none;
   margin: 25px auto;
 }
 
-nav li>a, nav li>a.visited {
+nav li>a, nav li>a.visited, nav li>span {
   color: #5d5d5d;
   border-bottom:2px solid;
   transition: all .2s linear;
 }
 
 nav li>a:hover, nav li>a.visited:hover {
+}
+
+nav ol li {
+  list-style-type: lower-alpha;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 800px){

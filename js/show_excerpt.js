@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $(".show-excerpt").click(function(){
-    jQuery(this).siblings(".post-excerpt").slideToggle();
+    jQuery(this).siblings(".about-excerpt").slideToggle();
   });
 });

@@ -19,9 +19,20 @@
   transition: all .3s linear;
 }
 
+.about-excerpt {
+  display: none;
+
+  font-family: "Work Sans", "Arial", sans-serif;
+  font-size: 0.7em;
+  line-height: 1em;
+  font-weight:normal;
+  text-transform: none;
+  text-align: left;
+  color: #999999;
+}
+
 .show-excerpt:hover {
   cursor: pointer;
-  transform: translateX(10px);
 }
 
 .narrative-heading, .challenge-heading, .read-more-link {
