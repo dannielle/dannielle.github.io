@@ -1,35 +1,14 @@
 ---
-layout: custom
+layout: simple
 title: dee dirosa * indie game dev & stuff
 ---
 
 <div class="listing">
-    {% for post in paginator.posts %}
 
-      {% if post.asdf == 'story' %}
-      <div class="post-group">
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-      {% endif %}
+  <ul>
+    <li>Win-Win Experiment</li>
+    <li>Website Crush of the Day</li>
+    <li>Different Games</li>
+  </ul>
 
-        <div class="listed-post">
-          <div class="show-excerpt">
-            {% if post.asdf == 'story' %}
-              <h1 class="narrative-heading">Narrative</h1>
-            {% endif %}
-            {% if post.asdf == 'challenge' %}
-              <h1 class="challenge-heading">Design Challenge</h1>
-            {% endif %}
-
-            <h2 class="post-title">{{ post.title }}</h2>
-          </div>
-          <div class="post-excerpt">
-            {{ post.excerpt }}
-            <a href="{{post.url}}" class="read-more-link">Read More</a>
-          </div>
-        </div>
-
-      {% if post.asdf == 'challenge' %}
-      </div>
-      {% endif %}
-    {% endfor %}
 </div>
