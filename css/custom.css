@@ -78,6 +78,12 @@ nav {
   font-family:"Ropa Sans", "Arial", sans-serif;
   font-size:1.8em;
   font-weight:bold;
+
+  max-width:500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  line-height: 1.5em;
 }
 
 nav>ul {
@@ -85,8 +91,8 @@ nav>ul {
 }
 
 nav li {
-  display:inline;
-  margin:0 1em;
+  list-style-type: none;
+  margin: 25px auto;
 }
 
 nav li>a, nav li>a.visited {
@@ -96,7 +102,6 @@ nav li>a, nav li>a.visited {
 }
 
 nav li>a:hover, nav li>a.visited:hover {
-  transform: translateY(-3px);
 }
 
 @media (max-width: 800px){
