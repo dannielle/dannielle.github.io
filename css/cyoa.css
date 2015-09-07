@@ -1,0 +1,99 @@
+body {
+  font-family: "Work Sans", Arial, sans-serif;
+  color:#7e7e7e;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.content {
+  padding: 4em 100px;
+  margin: auto;
+  max-width:75%;
+}
+
+header {
+  background-color: #e14a0e;
+  margin: auto;
+  padding:3em 0;
+  /*border: #f2f2f2 4px double;*/
+  border-radius: 100px;
+  /*box-shadow: 0 0 0 4px #e14a0e;*/
+  box-sizing: border-box;
+
+  text-align: center;
+  text-transform: lowercase;
+  color: #e14a0e;
+}
+
+header>h1 {
+  margin: 0;
+  margin-bottom: 0.15em;
+  font-size:5em;
+}
+
+header>h1>a, header>sub{
+  color: white;
+}
+
+header>sub {
+  font-size: 1.5em;
+}
+
+.container {
+  list-style-type: none;
+  margin-top:2em;
+
+  font-size:1.8em;
+  font-weight:lighter;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  line-height: 1.5em;
+}
+
+
+.container>ul>li {
+  list-style-type: none;
+  margin: 25px auto;
+}
+
+.container li>a, .container li>a.visited, .container li>span {
+  color: #7e7e7e;
+  background-color: #fcff20;
+  font-weight: normal;
+  display: inline-block;
+  padding:0px 15px 0px 12px;
+  font-style: italic;
+  box-sizing: border-box;
+  border: 2px solid rgba(255,255,255,0);
+  transition: border .2s linear;
+}
+
+.container li>a:hover, .container li>span.expandable:hover {
+  border: 2px solid white;
+}
+
+.container ol li {
+  list-style-type: lower-alpha;
+}
+
+.show-excerpt {
+  transition: display .3s linear;
+}
+
+.about-excerpt {
+  display: none;
+  font-size: 0.7em;
+  line-height: 1em;
+  font-weight:normal;
+  text-transform: none;
+  text-align: left;
+  color: #999999;
+}
+
+.show-excerpt:hover {
+  cursor: pointer;
+}
