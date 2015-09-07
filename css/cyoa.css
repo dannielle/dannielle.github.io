@@ -60,7 +60,7 @@ header>sub {
   margin: 25px auto;
 }
 
-.container li>a, .container li>a.visited, .container li>span {
+.container li>a, .container li>a.visited, .container li>span, .about {
   color: #7e7e7e;
   background-color: #fcff20;
   font-weight: normal;
@@ -78,6 +78,10 @@ header>sub {
 
 .container ol li {
   list-style-type: lower-alpha;
+}
+
+.project, .role {
+  display:inline;
 }
 
 .show-excerpt {
