@@ -60,28 +60,21 @@ header>sub {
   margin: 25px auto;
 }
 
-.container li>a, .container li>a.visited, .container li>span, .about {
+.project, .about, .twitter {
   color: #7e7e7e;
   background-color: #fcff20;
   font-weight: normal;
-  display: inline-block;
-  padding:0px 15px 0px 12px;
+  padding:0px 15px;
   font-style: italic;
-  box-sizing: border-box;
-  border: 2px solid rgba(255,255,255,0);
-  transition: border .2s linear;
+  transition: background-color .2s ease-out;
 }
 
-.container li>a:hover, .container li>span.expandable:hover {
-  border: 2px solid white;
+.project:hover, .about:hover, .twitter:hover {
+  background-color: #eaed23;
 }
 
-.container ol li {
-  list-style-type: lower-alpha;
-}
-
-.project, .role {
-  display:inline;
+.project, .about, .twitter, .role {
+  display: inline-block;
 }
 
 .show-excerpt {
