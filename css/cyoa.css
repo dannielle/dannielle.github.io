@@ -65,7 +65,7 @@ header>sub {
   background-color: #fcff20;
   font-weight: normal;
   padding:0px 15px;
-  font-style: italic;
+  transform: skewX(-10deg);
   transition: background-color .2s ease-out;
 }
 
