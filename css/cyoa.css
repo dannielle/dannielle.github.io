@@ -71,6 +71,7 @@ header>sub {
 
 .project:hover, .about:hover, .twitter:hover {
   background-color: #eaed23;
+  color: #494949;
 }
 
 .project, .about, .twitter, .role {
