@@ -1,11 +1,9 @@
 ---
 layout: custom
-title: About Dee dirosa
+title: About dee dannielle
 ---
 
-I'm Dee dirosa: an Atlanta-based enthusiasm enthusiast, software developer, and hobbyist game developer.
-
-My real name is Dannielle. Dee dirosa is just a pen name. It's fine.
+I'm dee: an Atlanta-based enthusiasm enthusiast, software developer, and hobbyist game developer.
 
 I'm an optimistic nerd to a fault:
 
