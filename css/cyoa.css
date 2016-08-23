@@ -7,10 +7,17 @@ a, a:visited {
   text-decoration: none;
 }
 
+@media (min-width: 800px) {
+  .content {
+    padding: 4em 100px;
+    margin: auto;
+    max-width:75%;
+  }
+}
+
 .content {
-  padding: 4em 100px;
+  padding: 50px;
   margin: auto;
-  max-width:75%;
 }
 
 header {
