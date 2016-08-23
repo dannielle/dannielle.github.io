@@ -15,6 +15,13 @@ a, a:visited {
   }
 }
 
+@media (max-width: 400px) {
+  .content {
+    padding: 10px;
+    margin: auto;
+  }
+}
+
 .content {
   padding: 50px;
   margin: auto;
@@ -40,6 +47,19 @@ header>h1 {
   font-size:5em;
 }
 
+@media (max-width: 400px) {
+  .content {
+    margin: 20px;
+    padding: 0;
+  }
+
+  header>h1 {
+    font-size:2em;
+  }
+}
+
+
+
 header>h1>a, header>sub{
   color: white;
 }
@@ -59,6 +79,12 @@ header>sub {
   margin-right: auto;
 
   line-height: 1.5em;
+}
+
+@media (max-width: 400px) {
+  .container {
+    font-size: 1.5em;    
+  }
 }
 
 
@@ -85,20 +111,15 @@ header>sub {
   display: inline-block;
 }
 
-.show-excerpt {
-  transition: display .3s linear;
-}
-
 .about-excerpt {
-  display: none;
-  font-size: 0.7em;
-  line-height: 1em;
+  font-size: .8em;
+  line-height: 1.25em;
   font-weight:normal;
   text-transform: none;
   text-align: left;
   color: #999999;
 }
 
-.show-excerpt:hover {
-  cursor: pointer;
+.about-excerpt ol {
+  padding-left: 20px;
 }
